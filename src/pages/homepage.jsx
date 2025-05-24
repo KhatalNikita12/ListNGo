@@ -141,7 +141,7 @@ const TravelAgencyHomepage = () => {
             Explore breathtaking destinations, create unforgettable memories, and experience the world like never before.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+            <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl" onClick={() => window.scrollTo({ top: document.getElementById('destinations').offsetTop, behavior: 'smooth' })}>
               Explore Destinations
             </button>
             <button className="px-8 py-4 border-2 border-white/30 hover:border-white/60 text-white font-semibold rounded-full transition-all duration-300 backdrop-blur-sm hover:bg-white/10">
